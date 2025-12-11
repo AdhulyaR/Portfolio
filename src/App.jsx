@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./Navbar.jsx";
-import Home from "./Home.jsx";
-import About from "./About.jsx";
-import Contact from "./Contact.jsx";
-import Project from "./Project.jsx";
-import Resume from "./Resume.jsx";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import Project from "./Project";
+import Resume from "./Resume";
 
 function App() {
   return (
